@@ -19,11 +19,11 @@ About Me, My Hobbies, My Learning Plan, Projects and Skills, My Photos, My Media
 ## Folder structure
 
 index.html
-css/styles.css
+README.md
+CSS/style.css
 js/script.js
-images/   (photos)
-videos/   (video and audio)
-
+images/   (photo1.jpeg, photo2.jpeg, photo3.jpeg)
+videos/   (intro.mp4, audio.mp3)
 
 ## Sources
 All text, photos, video and audio are my own work. Fonts are system fonts, so no external libraries are used.
