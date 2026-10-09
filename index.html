@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Felix Nkaka's student portfolio for ICT251 Web Technologies at Mulungushi University.">
+  <title>Felix Nkaka | Computer Science Student Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+  <style>
+  html[data-theme="dark"] body,
+  html[data-theme="dark"] main,
+  html[data-theme="dark"] section,
+  html[data-theme="dark"] .panel { background: #0c1a14 !important; color: #e9f2ec !important; }
+  html[data-theme="dark"] .panel-alt { background: #12251c !important; }
+  html[data-theme="dark"] .site-header { background: #17302a !important; color: #e9f2ec !important; }
+  html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3,
+  html[data-theme="dark"] p, html[data-theme="dark"] li, html[data-theme="dark"] label,
+  html[data-theme="dark"] dt, html[data-theme="dark"] dd, html[data-theme="dark"] caption,
+  html[data-theme="dark"] figcaption, html[data-theme="dark"] .brand,
+  html[data-theme="dark"] .site-nav a { color: #e9f2ec !important; }
+  html[data-theme="dark"] .card, html[data-theme="dark"] .media-item,
+  html[data-theme="dark"] .preview, html[data-theme="dark"] table,
+  html[data-theme="dark"] input, html[data-theme="dark"] textarea {
+    background: #17302a !important; color: #e9f2ec !important; border-color: #35574a !important;
+  }
+  html[data-theme="dark"] th { background: #f2b705 !important; color: #1a1400 !important; }
+  html[data-theme="dark"] a { color: #f2b705 !important; }
+  html[data-theme="dark"] #hero { background: #0f4a35 !important; }
+  html[data-theme="dark"] #hero h1, html[data-theme="dark"] #hero p { color: #ffffff !important; }
+  html[data-theme="dark"] .btn { background: #f2b705 !important; border-color: #f2b705 !important; color: #1a1400 !important; }
+
+  /* Video and photos: normal size, not zoomed */
+  .media-item video { width: 100%; max-width: 480px; max-height: 300px; height: auto; object-fit: contain; display: block; margin: 0 auto; background: #000; }
+  .slide img { width: auto; max-width: 100%; max-height: 450px; height: auto; object-fit: contain; display: block; margin: 0 auto; }
+</style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header id="top" class="site-header">
+    <div class="header-inner">
+      <p class="brand">Feliga Dev</p>
+
+      <div class="header-controls">
+        <button id="theme-toggle" class="btn btn-small" type="button" aria-pressed="false">
+          Dark mode
+        </button>
+        <button id="menu-toggle" class="btn btn-small menu-toggle" type="button"
+                aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+      </div>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#hobbies">My Hobbies</a></li>
+          <li><a href="#learning">My Learning Plan</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#photos">My Photos</a></li>
+          <li><a href="#media">My Media</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <h1 id="hero-title">Hello,my name is Felix Nkaka.</h1>
+        <p class="hero-programme">Second-year Computer Science student, Mulungushi University</p>
+        <p class="hero-intro">
+          I build clean websites and I am growing into software and cybersecurity work.
+          This portfolio shows what I have learned in ICT251 Web Technologies.
+        </p>
+        <a class="btn" href="#projects">View My Projects</a>
+      </div>
+    </section>
+    <section id="about" class="panel" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">About Me</h2>
+        <p>
+          My name is Felix Nkaka, I study Computer Science at Mulungushi University in Zambia.
+          Under my brand, Feliga Dev, I design websites, explore networking. I am driven by one goal:
+            becoming a professional software developer with strong cybersecurity skills, building digital systems that are powerful,
+              useful, and safe.I enjoy turning ideas into working software. Outside class I
+          build small web projects and creative work, so that the systems I build are useful and safe for the people who use them.
+        </p>
+      </div>
+    </section>
+    <section id="hobbies" class="panel panel-alt" aria-labelledby="hobbies-title">
+      <div class="container">
+        <h2 id="hobbies-title">My Hobbies</h2>
+        <ul class="hobby-list">
+          <li>Coding small web projects</li>
+          <li>music</li>
+          <li>Learning how to keep systems secure</li>
+        </ul>
+      </div>
+    </section>
+    <section id="learning" class="panel" aria-labelledby="learning-title">
+      <div class="container">
+        <h2 id="learning-title">My Learning Plan</h2>
+        <p>Three steps I will take to grow my skills in ICT251.</p>
+        <ol class="steps">
+          <li>Master HTML, CSS and JavaScript fundamentals.</li>
+          <li>Learn a backend language and build a full web application.</li>
+          <li>Study cybersecurity basics and practise ethically in safe labs.</li>
+        </ol>
+        <div class="table-wrap">
+          <table>
+            <caption>My weekly learning schedule</caption>
+            <thead>
+              <tr>
+                <th scope="col">Topic</th>
+                <th scope="col">Goal</th>
+                <th scope="col">Hours per week</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>HTML and CSS</td><td>Build responsive pages</td><td>2</td></tr>
+              <tr><td>JavaScript</td><td>Add interactive features</td><td>2</td></tr>
+              <tr><td>Cybersecurity basics</td><td>Understand common threats</td><td>3</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="panel panel-alt" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title">Projects and Skills</h2>
+        <p>Three things I have learned so far in ICT251.</p>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Semantic HTML5</h3>
+            <p>I structure pages with header, nav, main, section and footer so they are clear for people and screen readers.</p>
+          </article>
+          <article class="card">
+            <h3>Responsive CSS</h3>
+            <p>I use Flexbox, Grid and media queries so layouts work on phones and computers.</p>
+          </article>
+          <article class="card">
+            <h3>Interactive JavaScript</h3>
+            <p>I use events and DOM updates to validate forms, switch themes and control galleries.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="photos" class="panel" aria-labelledby="photos-title">
+      <div class="container">
+        <h2 id="photos-title">My Photos</h2>
+
+        <div id="gallery" class="gallery">
+          <figure class="slide">
+            <img src="images/photo1.jpeg" alt="Describe your first photo clearly here" width="400" height="400">
+            <figcaption>Mr Nkaka</figcaption>
+          </figure>
+          <figure class="slide">
+            <img src="images/photo2.jpeg" alt="Describe your second photo clearly here" width="400" height="400">
+            <figcaption>Dream big</figcaption>
+          </figure>
+          <figure class="slide">
+            <img src="images/photo3.jpeg" alt="Describe your third photo clearly here" width="400" height="400">
+            <figcaption>Every professional was once a beginner</figcaption>
+          </figure>
+
+          <div class="gallery-controls">
+            <button id="gallery-prev" class="btn btn-small" type="button">Previous</button>
+            <p id="gallery-status" aria-live="polite">Photo 1 of 3</p>
+            <button id="gallery-next" class="btn btn-small" type="button">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="media" class="panel panel-alt" aria-labelledby="media-title">
+      <div class="container">
+        <h2 id="media-title">My Media</h2>
+        <div class="media-grid">
+          <div class="media-item">
+            <h3>Short video</h3>
+            <video controls preload="metadata" poster="" style="width:400%; max-width:480px; max-height: 300; display:block; margin:0 auto; background:#000;">
+              <source src="videos/intro.mp4" type="video/mp4">
+              Your browser does not support the video element.
+            </video>
+            <p class="summary">Hello everyone,my name is felix nkaka a computer science student at mulungushi university.</p>
+          </div>
+
+          <div class="media-item">
+            <h3>Audio clip</h3>
+            <audio controls preload="metadata">
+              <source src="videos/audio.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+            <p class="summary">Hello everyone, my name is Felix Nkaka, I am a second-year student at Mulungushi University studying computer science.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="panel" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Contact</h2>
+        <form id="contact-form" class="form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+            <span class="error" id="name-error" role="alert"></span>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+            <span class="error" id="email-error" role="alert"></span>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <span class="error" id="message-error" role="alert"></span>
+          </div>
+
+          <button class="btn" type="submit">Validate and preview</button>
+        </form>
+
+        <div id="form-preview" class="preview" aria-live="polite" hidden>
+          <h3>Validated preview</h3>
+          <p>The data below was validated in your browser. It was not delivered anywhere.</p>
+          <dl>
+            <dt>Name</dt><dd id="preview-name"></dd>
+            <dt>Email</dt><dd id="preview-email"></dd>
+            <dt>Message</dt><dd id="preview-message"></dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+ </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Felix Nkaka(Feliga Dev). ICT251 Web Technologies, Mulungushi University.</p>
+      <p>
+        <a href="https://github.com/Felixnkaka72-beep" target="_blank" rel="noopener">View Source on GitHub</a>
+        &nbsp;|&nbsp;
+        <a href="#top">Back to top</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
