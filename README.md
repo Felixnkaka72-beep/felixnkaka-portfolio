@@ -2,7 +2,7 @@
 
 A responsive student portfolio built with plain HTML5, CSS and JavaScript for ICT251 Web Technologies at Mulungushi University. It has no frameworks and no build step.
 
-*Live site:* https://YOUR-SITE.onrender.com
+*Live site:* https://felixnkaka-portfolio.onrender.com/
 
 ## Sections
 About Me, My Hobbies, My Learning Plan, Projects and Skills, My Photos, My Media, Contact.
